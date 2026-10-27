@@ -2,8 +2,11 @@
 <Defs>
     <ThingDef ParentName="DoorBase">
         <defName>AdvancedAutodoor</defName>
-        <label>AdvancedAutodoor</label>
-        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
+        <label>Advanced Autodoor</label>
+        <description>
+            An automatic door that opens when someone approaches.
+            It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.
+        </description>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <Flammability>0.00</Flammability>
@@ -13,11 +16,14 @@
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Advanced Autodoor.png</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawrotated>true</drawrotated>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-
+        <uiIconPath>UI/Icons/Advanced Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
         <costList>
             <Steel>50</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>
@@ -36,8 +42,8 @@
                 <compClass>CompPowerTrader</compClass>
                 <basePowerConsumption>25</basePowerConsumption>
             </li>
-            <li Class="compproperties_breakdownable"/>
-            <li Class="compproperties_autodoors">
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Autodoors">
                 <compClass>CompAutoDoor</compClass>
                 <openDelay>0.0</openDelay>
                 <closeDelay>0.5</closeDelay>
