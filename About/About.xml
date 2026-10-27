@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+   <name>Actually Autodoors</name>
+   <author>InanePoppy</author>
+   <description>
+    Changes autodoors speed, energy consumption, research and amount of resources needed to construct them.
+   </description>
+   <version>0.1</version>
+   <modVersion IgnoreIfNoMatchingField="True">0.1</modVersion>
+   <supportedVersions>
+      <li>1.6</li>
+   </supportedVersions>
+   <packageId>InanePoppy.ActuallyAutodoors</packageId>
+</ModMetaData>
