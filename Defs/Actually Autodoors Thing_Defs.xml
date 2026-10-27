@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="DoorBase">
-        <defName>Advanced_Autodoor</defName>
-        <DefName>Advanced_AutoDoor</DefName>
-        <label>Advanced Autodoor</label>
+        <defName>AdvancedAutodoor</defName>
+        <label>AdvancedAutodoor</label>
         <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
@@ -12,7 +11,7 @@
             <DoorOpenSpeed>1.10</DoorOpenSpeed>
         </statBases>
         <graphicData>
-            <texPath>Things/Building/Structure/AutoDoor/AutoDoor_Mover</texPath>
+            <texPath>Textures_Actually_Autodoors/Advanced Autodoor.png</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <damageData>
                 <enabled>false</enabled>
@@ -27,7 +26,6 @@
         <researchPrerequisites>
             <li>Advanced Autodoors</li>
         </researchPrerequisites>
-        <uiIconPath>Things/Building/Structure/AutoDoor/AutoDoor_MenuIcon</uiIconPath>
         <stuffCategories>
             <li>Metallic</li>
             <li>Woody</li>
