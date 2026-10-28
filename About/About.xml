@@ -2,7 +2,7 @@
 <ModMetaData>
    <name>Actually Autodoors</name>
    <author>InanePoppy</author>
-   <description>Changes autodoors speed, energy consumption, research and amount of resources needed to construct them.</description>
+   <description>Adds an advanced autodoor that is faster but takes more resources to make. This is an overall improvement over the autodoor.</description>
    <modVersion IgnoreIfNoMatchingField="True">1.0 </modVersion>
    <url>https://github.com/Rcoding7291/ActuallyAutodoors</url>
    <supportedVersions>
