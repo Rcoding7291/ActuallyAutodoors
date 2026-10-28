@@ -4,7 +4,7 @@
         <tab>Advanced_Autodoors_Research</tab>
         <defName>Advanced_Autodoors</defName>
         <label>Advanced Autodoors</label>
-        <description>Allows the construction of advanced automatic doors that open faster than normal autodoor and require power to operate.</description>
+        <description>Allows the construction of advanced automatic doors that open faster than a normal autodoor and requires power to operate.</description>
         <baseCost>
             3000
         </baseCost>
