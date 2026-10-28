@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <tab>Advanced Autodoors Research</tab>
     <ResearchProjectDef>
+        <tab>Advanced Autodoors Research</tab>
         <defName>Advanced Autodoors</defName>
         <label>Advanced Autodoors</label>
         <description>Allows the construction of advanced automatic doors that open faster than normal autodoor and require power to operate.</description>

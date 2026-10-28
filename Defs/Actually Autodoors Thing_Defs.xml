@@ -14,14 +14,14 @@
             <DoorOpenSpeed>1.10</DoorOpenSpeed>
         </statBases>
         <graphicData>
-            <texPath>Textures_Actually_Autodoors/Advanced Autodoor.png</texPath>
+            <texPath>Textures_Actually_Autodoors/Advanced Autodoor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawrotated>true</drawrotated>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Advanced Autodoor.png</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Autodoor</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
