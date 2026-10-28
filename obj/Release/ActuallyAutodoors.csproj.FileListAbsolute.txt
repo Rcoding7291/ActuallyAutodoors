@@ -1,0 +1,10 @@
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/Assemblies/ActuallyAutodoors.dll
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/Assemblies/ActuallyAutodoors.pdb
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.csproj.AssemblyReference.cache
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.GeneratedMSBuildEditorConfig.editorconfig
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.AssemblyInfoInputs.cache
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.AssemblyInfo.cs
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.csproj.CoreCompileInputs.cache
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.sourcelink.json
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.dll
+/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/Release/ActuallyAutodoors.pdb

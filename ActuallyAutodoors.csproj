@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>ActuallyAutodoors</AssemblyName>
+    <OutputPath>$(MSBuildThisFileDirectory)Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Assemblies/**/*.cs" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldDir)/RimWorldLinux_Data/Managed/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldDir)/RimWorldLinux_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies"
+                      Version="1.0.3"
+                      PrivateAssets="All" />
+  </ItemGroup>
+</Project>
