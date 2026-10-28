@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-<tab>
+    <tab>ACtually Autodoors</tab>
     <ResearchTabDef>
      <defName>AdvancedAutodoorsResearch</defName>
      <label>Advanced Autodoors</label>
     <generalTitle>Advanced Autodoors Research</generalTitle>
     <generaldescription>Advanced automatic doors that open faster than normal autodoors and require power to operate.</generaldescription>
     </ResearchTabDef>
-</tab>
 </Defs>
