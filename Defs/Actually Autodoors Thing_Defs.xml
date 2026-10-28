@@ -7,7 +7,7 @@
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <Flammability>0.00</Flammability>
-            <WorkToBuild>1600</WorkToBuild>
+            <WorkToBuild>800</WorkToBuild>
             <DoorOpenSpeed>1.10</DoorOpenSpeed>
         </statBases>
         <graphicData>
