@@ -11,7 +11,7 @@
             <DoorOpenSpeed>1.10</DoorOpenSpeed>
         </statBases>
         <graphicData>
-            <texPath>Textures_Actually_Autodoors/Advanced Autodoor</texPath>
+            <texPath>Textures_Actually_Autodoors/Advanced Autodoor Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawRotated>true</drawRotated>
             <damageData>

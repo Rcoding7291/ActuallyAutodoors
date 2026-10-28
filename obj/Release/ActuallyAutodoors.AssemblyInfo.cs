@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActuallyAutodoors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7711253b5632107ba7e987e951845823702eec33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e061ea736ed49058292a23a5892aea40f559eaeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActuallyAutodoors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActuallyAutodoors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@ using Verse;
 
 namespace ActuallyAutodoors
 {
-    public class StatPart_AdvancedAutodoorStoneSpeed : StatPart
+    public class StatPart_AdvancedAutodoorMinimumSpeed : StatPart
     {
         public override void TransformValue(StatRequest req, ref float val)
         {
@@ -15,11 +15,8 @@ namespace ActuallyAutodoors
             if (thing.def.defName != "Advanced_Autodoors")
                 return;
 
-            if (thing.Stuff == null ||
-                !thing.Stuff.stuffProps.categories.Contains(StuffCategoryDefOf.Stony))
-                return;
-
-            val = 1.0f;
+            if (val < 1.0f)
+                val = 1.0f;
         }
 
         public override string ExplanationPart(StatRequest req)

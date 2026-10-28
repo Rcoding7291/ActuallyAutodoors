@@ -4,7 +4,7 @@
         <xpath>Defs/StatDef[defName="DoorOpenSpeed"]</xpath>
         <value>
             <parts>
-                <li Class="ActuallyAutodoors.StatPart_AdvancedAutodoorStoneSpeed" />
+                <li Class="ActuallyAutodoors.StatPart_AdvancedAutodoorMinimumSpeed" />
             </parts>
         </value>
     </Operation>
