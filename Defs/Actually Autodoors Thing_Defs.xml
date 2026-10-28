@@ -43,12 +43,7 @@
                 <basePowerConsumption>25</basePowerConsumption>
             </li>
             <li Class="CompProperties_Breakdownable"/>
-            <li Class="CompProperties_Autodoors">
-                <compClass>CompAutoDoor</compClass>
-                <openDelay>0.0</openDelay>
-                <closeDelay>0.5</closeDelay>
-            </li>
-            <li Class= "compproperties_Stylable"/>
+            <li Class= "CompProperties_Stylable"/>
         </comps>
         <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
          <building>
