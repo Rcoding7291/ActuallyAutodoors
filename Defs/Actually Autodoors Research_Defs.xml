@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ResearchProjectDef>
-        <defName>Advanced_Autodoors</defName>
-        <label>Advanced_Autodoors</label>
+        <defName>Advanced Autodoors</defName>
+        <label>Advanced Autodoors</label>
         <description>Allows the construction of advanced automatic doors that open faster than normal autodoor and require power to operate.</description>
         <baseCost>
             3000

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="DoorBase">
-        <defName>AdvancedAutodoor</defName>
+        <defName>Advanced Autodoor</defName>
         <label>Advanced Autodoor</label>
         <description>
             An automatic door that opens when someone approaches.
@@ -21,7 +21,7 @@
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>UI/Icons/Advanced Autodoor</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Autodoor.png</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
@@ -39,7 +39,7 @@
         </stuffCategories>
         <comps>
             <li Class="CompProperties_Power">
-                <compClass>CompPowerTrader</compClass>
+                <compClass>compPowerTrader</compClass>
                 <basePowerConsumption>25</basePowerConsumption>
             </li>
             <li Class="CompProperties_Breakdownable"/>
