@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+    <tab>Advanced Autodoors Research</tab>
     <ResearchProjectDef>
         <defName>Advanced Autodoors</defName>
         <label>Advanced Autodoors</label>

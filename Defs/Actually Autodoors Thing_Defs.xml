@@ -8,9 +8,9 @@
             It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.
         </description>
         <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
+            <MaxHitPoints>300</MaxHitPoints>
             <Flammability>0.00</Flammability>
-            <WorkToBuild>500</WorkToBuild>
+            <WorkToBuild>800</WorkToBuild>
             <DoorOpenSpeed>1.10</DoorOpenSpeed>
         </statBases>
         <graphicData>
@@ -39,12 +39,14 @@
         </stuffCategories>
         <comps>
             <li Class="CompProperties_Power">
-                <compClass>compPowerTrader</compClass>
+                <compClass>CompPowerTrader</compClass>
                 <basePowerConsumption>25</basePowerConsumption>
             </li>
+            <li Class="CompProperties_AutoDoor"/>
             <li Class="CompProperties_Breakdownable"/>
-            <li Class= "CompProperties_Stylable"/>
+            <li Class= "CompProperties_Styleable"/>
         </comps>
+        
         <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
          <building>
              <isStuffableAirtight>true</isStuffableAirtight>

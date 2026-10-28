@@ -4,6 +4,6 @@
         <defName>Advanced Autodoors Research</defName>
         <label>Advanced Autodoors</label>
         <generalTitle>Advanced Autodoors Research</generalTitle>
-        <generaldescription>Advanced automatic doors that open faster than normal autodoors and require power to operate.</generaldescription>
+        <generalDescription>Advanced automatic doors that open faster than normal autodoors and require power to operate.</generalDescription>
     </ResearchTabDef>
 </Defs>
