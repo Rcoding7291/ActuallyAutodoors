@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ResearchProjectDef>
-        <tab>Advanced Autodoors Research</tab>
-        <defName>Advanced Autodoors</defName>
+        <tab>Advanced_Autodoors_Research</tab>
+        <defName>Advanced_Autodoors</defName>
         <label>Advanced Autodoors</label>
         <description>Allows the construction of advanced automatic doors that open faster than normal autodoor and require power to operate.</description>
         <baseCost>
@@ -12,7 +12,7 @@
             Industrial</techLevel>
         <hiddenPrerequisites>
           <li>Autodoors</li>
-          <li>Microelectronics</li>
+          <li>MicroelectronicsBasics</li>
         </hiddenPrerequisites>
         <researchViewX>0.0</researchViewX>
         <researchViewY>0.0</researchViewY>
