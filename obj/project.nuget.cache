@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oQb08SnD1GY=",
+  "dgSpecHash": "+PTZgQFaGec=",
   "success": true,
-  "projectFilePath": "/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
+  "projectFilePath": "/home/weird/SteamLibraryLink/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
   "expectedPackageFiles": [
     "/home/weird/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/home/weird/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"

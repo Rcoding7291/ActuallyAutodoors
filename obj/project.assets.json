@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
+      "projectUniqueName": "/home/weird/SteamLibraryLink/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
       "projectName": "ActuallyAutodoors",
-      "projectPath": "/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
+      "projectPath": "/home/weird/SteamLibraryLink/steamapps/common/RimWorld/Mods/ActuallyAutodoors/ActuallyAutodoors.csproj",
       "packagesPath": "/home/weird/.nuget/packages/",
-      "outputPath": "/home/weird/.local/share/Steam/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/",
+      "outputPath": "/home/weird/SteamLibraryLink/steamapps/common/RimWorld/Mods/ActuallyAutodoors/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/weird/.nuget/NuGet/NuGet.Config"
