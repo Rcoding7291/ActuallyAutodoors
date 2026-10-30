@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
@@ -5,7 +6,6 @@
     <OutputPath>$(MSBuildThisFileDirectory)Assemblies/</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Assemblies/**/*.cs" />
     <Reference Include="Assembly-CSharp">
@@ -17,10 +17,7 @@
       <Private>false</Private>
     </Reference>
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies"
-                      Version="1.0.3"
-                      PrivateAssets="All" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
   </ItemGroup>
 </Project>

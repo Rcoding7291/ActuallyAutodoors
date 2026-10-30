@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="Advanced_Reinforced_Autodoors" ParentName="BaseDoor">
+        <defName>Advanced_Reinforced_Autodoors</defName>
+        <label>Advanced Reinforced Autodoor</label>
+        <description>Works just like a regular door but it is slower and more durable.</description>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>3800</WorkToBuild>
+            <DoorOpenSpeed>1.1</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Advanced Reinforced Door Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawRotated>false</drawRotated>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Reinforced Door</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <stuffcost>
+            <Steel>50</Steel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </stuffcost>
+        <costStuffCount>75</costStuffCount>
+        <prerequisites>
+            <li>Advanced_Reinforced_Autodoors</li>
+        </prerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>50</basePowerConsumption>
+            </li>
+        </comps>
+        <building>
+             <isStuffableAirtight>false</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

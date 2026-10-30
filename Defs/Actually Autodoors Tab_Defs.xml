@@ -2,7 +2,7 @@
 <Defs>
     <ResearchTabDef>
         <defName>Advanced_Autodoors_Research</defName>
-        <label>Advanced Autodoors</label>
+        <label>Actually Autodoors</label>
         <generalTitle>Advanced Autodoors Research</generalTitle>
         <generalDescription>Advanced automatic doors that open faster than normal autodoors and require power to operate.</generalDescription>
     </ResearchTabDef>

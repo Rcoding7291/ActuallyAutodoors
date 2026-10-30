@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef>
+        <defName>Reinforced_Autodoors</defName>
+        <label>Reinforced Autodoors</label>
+        <description>Works just like a regular autodoor but it is faster and more durable.</description>
+        <statBases>
+            <MaxHitPoints>275</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>1800</WorkToBuild>
+            <DoorOpenSpeed>0.9</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Reinforced Autodoor Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawRotated>false</drawRotated>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costList>
+            <Steel>25</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <costStuffCount>50</costStuffCount>
+        <researchPrerequisites>
+            <li>Reinforced_Autodoors</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>100</basePowerConsumption>
+            </li>
+        </comps>
+        <constructionSkill>8</constructionSkill>
+
+    </ThingDef>
+</Defs>

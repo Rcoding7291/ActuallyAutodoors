@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <Tab>Advanced_Autodoors_Research</Tab>
+        <defName>Reinforced_Doors</defName>
+        <label>Reinforced Doors</label>
+        <description>Research to unlock reinforced doors for enhanced security. Slower than regular doors but much stronger.</description>
+        <baseCost>300</baseCost>
+        <techLevel>Medieval</techLevel>
+        <hiddenPrerequisites>
+            <li>Smithing</li>
+        </hiddenPrerequisites>
+        <researchViewx>0.0</researchViewx>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+</Defs>

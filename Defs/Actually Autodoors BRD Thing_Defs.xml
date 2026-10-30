@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef Name="Reinforced_Doors" ParentName="BaseDoor">
+        <defName>Reinforced_Doors</defName>
+        <label>Reinforced Door</label>
+        <description>Works just like a regular door but it is slower and more durable.</description>
+        <statBases>
+            <MaxHitPoints>225</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <WorkToBuild>1200</WorkToBuild>
+            <DoorOpenSpeed>0.60</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Reinforced Door Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawRotated>false</drawRotated>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Door</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <stuffcost>
+            <Steel>10</Steel>
+        </stuffcost>
+        <costStuffCount>40</costStuffCount>
+        <prerequisites>
+            <li>Reinforced_Doors</li>
+        </prerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <comps>
+            <li Class="CompProperties_Styleable"/>
+        </comps>
+        <building>
+             <isStuffableAirtight>false</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

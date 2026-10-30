@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="DoorBase">
+    <ThingDef Name="Advanced_Autodoors" ParentName="DoorBase">
         <defName>Advanced_Autodoors</defName>
         <label>Advanced Autodoor</label>
-        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
+        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will lose it's ability to keep a seal and will function as a normal door.</description>
         <statBases>
-            <MaxHitPoints>300</MaxHitPoints>
-            <Flammability>0.00</Flammability>
-            <WorkToBuild>1600</WorkToBuild>
-            <DoorOpenSpeed>1.10</DoorOpenSpeed>
+            <MaxHitPoints>350</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>2500</WorkToBuild>
+            <DoorOpenSpeed>1.50</DoorOpenSpeed>
         </statBases>
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Advanced Autodoor Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawRotated>true</drawRotated>
+            <drawRotated>false</drawRotated>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
@@ -23,7 +23,7 @@
         <selectable>true</selectable>
         <costList>
             <Steel>50</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
         <costStuffCount>25</costStuffCount>
         <researchPrerequisites>
@@ -42,8 +42,7 @@
             <li Class="CompProperties_Breakdownable"/>
             <li Class= "CompProperties_Styleable"/>
         </comps>
-        
-        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
          <building>
              <isStuffableAirtight>true</isStuffableAirtight>
         </building>

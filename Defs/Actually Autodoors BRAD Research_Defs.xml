@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProject>
+        <tab>Advanced_Autodoors_Research</tab>
+        <defName>Reinforced_Autodoors</defName>
+        <label>Reinforced Autodoors</label>
+        <description></description>
+        <basecost>800</basecost>
+        <techLevel>Industrial</techLevel>
+        <hiddenPrerequisites>
+            <li>Autodoors</li>
+            <li>Machining</li>
+        </hiddenPrerequisites>
+        <prerequisites>
+            <li>Reinforced_Doors</li>
+        </prerequisites>
+        <requiredResearchFacilities>
+            <li>ToolCabinet</li>
+        </requiredResearchFacilities>
+        <researchViewX>1.0</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProject>
+</Defs>

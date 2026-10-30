@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/StatDef[defName="DoorOpenSpeed"]</xpath>
+    <Operation Class="PatchOperationSetProperty">
+        <xpath>//thingDef[@Name='Advanced_Autodoors']/statBases/DoorOpenSpeed</xpath>
+        <value>1.25</value>
         <value>
             <parts>
                 <li Class="ActuallyAutodoors.StatPart_AdvancedAutodoorMinimumSpeed" />
