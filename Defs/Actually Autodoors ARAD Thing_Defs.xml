@@ -3,7 +3,7 @@
     <ThingDef Name="Advanced_Reinforced_Autodoors" ParentName="BaseDoor">
         <defName>Advanced_Reinforced_Autodoors</defName>
         <label>Advanced Reinforced Autodoor</label>
-        <description>Works just like a regular door but it is slower and more durable.</description>
+        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
         <statBases>
             <MaxHitPoints>500</MaxHitPoints>
             <Flammability>0.0</Flammability>
@@ -21,15 +21,15 @@
         <uiIconPath>Textures_Actually_Autodoors/Advanced Reinforced Door</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
-        <stuffcost>
+        <costList>
             <Steel>50</Steel>
             <ComponentSpacer>1</ComponentSpacer>
             <ComponentIndustrial>4</ComponentIndustrial>
-        </stuffcost>
+        </costList>
         <costStuffCount>75</costStuffCount>
-        <prerequisites>
+        <researchPrerequisites>
             <li>Advanced_Reinforced_Autodoors</li>
-        </prerequisites>
+        </researchPrerequisites>
         <stuffCategories>
             <li>Metallic</li>
             <li>Stony</li>
@@ -40,11 +40,12 @@
             <li Class="CompProperties_Styleable"/>
             <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
-                <basePowerConsumption>50</basePowerConsumption>
+                <basePowerConsumption>75</basePowerConsumption>
             </li>
         </comps>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
         <building>
-             <isStuffableAirtight>false</isStuffableAirtight>
+             <isStuffableAirtight>true</isStuffableAirtight>
         </building>
     </ThingDef>
 </Defs>

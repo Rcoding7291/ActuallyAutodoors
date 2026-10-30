@@ -4,6 +4,7 @@
         <defName>Reinforced_Doors</defName>
         <label>Reinforced Door</label>
         <description>Works just like a regular door but it is slower and more durable.</description>
+        <
         <statBases>
             <MaxHitPoints>225</MaxHitPoints>
             <Flammability>0.5</Flammability>
@@ -21,13 +22,13 @@
         <uiIconPath>Textures_Actually_Autodoors/Reinforced Door</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
-        <stuffcost>
+        <costList>
             <Steel>10</Steel>
-        </stuffcost>
+        </costList>
         <costStuffCount>40</costStuffCount>
-        <prerequisites>
+        <researchPrerequisites>
             <li>Reinforced_Doors</li>
-        </prerequisites>
+        </researchPrerequisites>
         <stuffCategories>
             <li>Metallic</li>
             <li>Stony</li>
@@ -36,6 +37,7 @@
         <comps>
             <li Class="CompProperties_Styleable"/>
         </comps>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
         <building>
              <isStuffableAirtight>false</isStuffableAirtight>
         </building>

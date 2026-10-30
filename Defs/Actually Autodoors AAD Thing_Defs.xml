@@ -3,7 +3,7 @@
     <ThingDef Name="Advanced_Autodoors" ParentName="DoorBase">
         <defName>Advanced_Autodoors</defName>
         <label>Advanced Autodoor</label>
-        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will lose it's ability to keep a seal and will function as a normal door.</description>
+        <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
         <statBases>
             <MaxHitPoints>350</MaxHitPoints>
             <Flammability>0.0</Flammability>
@@ -35,12 +35,12 @@
             <li>Stony</li>
         </stuffCategories>
         <comps>
-            <li Class="CompProperties_Power">
-                <compClass>CompPowerTrader</compClass>
-                <basePowerConsumption>25</basePowerConsumption>
-            </li>
             <li Class="CompProperties_Breakdownable"/>
             <li Class= "CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>50</basePowerConsumption>
+            </li>
         </comps>
         <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
          <building>

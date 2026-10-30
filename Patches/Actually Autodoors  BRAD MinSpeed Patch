@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-    <Operation Class="PatchOperationSetProperty">
-        <xpath>//thingDef[@Name='Reinforced_Autodoors']/statBases/DoorOpenSpeed</xpath>
-        <value>0.75</value>
-        <value>
-            <parts>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/StatDef[defName="DoorOpenSpeed"]/parts</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/StatDef[defName="DoorOpenSpeed"]/parts</xpath>
+            <value>
                 <li Class="ActuallyAutodoors.StatPart_ReinforcedAutodoorMinimumSpeed" />
-            </parts>
-        </value>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/StatDef[defName="DoorOpenSpeed"]</xpath>
+            <value>
+                <parts>
+                    <li Class="ActuallyAutodoors.StatPart_ReinforcedAutodoorMinimumSpeed" />
+                </parts>
+            </value>
+        </nomatch>
     </Operation>
 </Patch>

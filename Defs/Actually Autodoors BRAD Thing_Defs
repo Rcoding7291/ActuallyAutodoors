@@ -36,12 +36,15 @@
         </stuffCategories>
         <comps>
             <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
             <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
-                <basePowerConsumption>100</basePowerConsumption>
+                <basePowerConsumption>125</basePowerConsumption>
             </li>
         </comps>
-        <constructionSkill>8</constructionSkill>
-
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <building>
+             <isStuffableAirtight>true</isStuffableAirtight>
+        </building>
     </ThingDef>
 </Defs>
