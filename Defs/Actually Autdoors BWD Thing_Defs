@@ -25,9 +25,6 @@
         <comps>
             <li Class="CompProperties_Styleable"/>
         </comps>
-        <researchPrerequisites>
-            <li>WideDoor</li>
-        </researchPrerequisites>
         <stuffCategories>
             <li>Metallic</li>
             <li>Woody</li>

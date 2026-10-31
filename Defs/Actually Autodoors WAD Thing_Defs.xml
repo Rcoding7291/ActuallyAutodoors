@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ActuallyAutodoorsWideDoorBase">
+        <defName>Wide_Autodoor</defName>
+        <label>Wide Autodoor</label>
+        <description>A wide powered autodoor that opens quickly.</description>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>1800</WorkToBuild>
+            <DoorOpenSpeed>1.0</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Wide Autodoor Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Wide Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <costStuffCount>50</costStuffCount>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>50</basePowerConsumption>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>Autodoor</li>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <building>
+            <isStuffableAirtight>true</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

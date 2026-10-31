@@ -1,0 +1,6 @@
+{
+    "chat.viewProgressBadge.enabled": true,
+    "chat.mcp.gallery.enabled": true,
+    "chat.mcp.assisted.nuget.enabled": true,
+    "chat.checkpoints.showFileChanges": false
+}
