@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ActuallyAutodoorsWideDoorBase">
+        <defName>Advanced_Reinforced_Wide_Autodoor</defName>
+        <label>Advanced Reinforced Wide Autodoor</label>
+        <description>A wide advanced reinforced autodoor that opens quickly when powered and is highly durable.</description>
+        <statBases>
+            <MaxHitPoints>750</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>4200</WorkToBuild>
+            <DoorOpenSpeed>1.5</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Advanced Reinforced Wide Autodoor Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Reinforced Wide Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <costStuffCount>100</costStuffCount>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>75</basePowerConsumption>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>Advanced_Reinforced_Wide_Autodoor</li>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <building>
+            <isStuffableAirtight>true</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

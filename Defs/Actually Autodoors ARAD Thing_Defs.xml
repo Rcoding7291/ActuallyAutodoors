@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef Name="Advanced_Reinforced_Autodoors" ParentName="BaseDoor">
+    <ThingDef ParentName="DoorBase">
         <defName>Advanced_Reinforced_Autodoors</defName>
         <label>Advanced Reinforced Autodoor</label>
         <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
         <statBases>
             <MaxHitPoints>500</MaxHitPoints>
             <Flammability>0.0</Flammability>
-            <WorkToBuild>3800</WorkToBuild>
-            <DoorOpenSpeed>1.1</DoorOpenSpeed>
+            <WorkToBuild>3500</WorkToBuild>
+            <DoorOpenSpeed>1.5</DoorOpenSpeed>
         </statBases>
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Advanced Reinforced Door Mover</texPath>

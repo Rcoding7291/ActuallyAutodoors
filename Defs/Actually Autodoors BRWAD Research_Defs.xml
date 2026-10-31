@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <tab>Advanced_Autodoors_Research</tab>
+        <defName>Reinforced_Wide_Autodoor</defName>
+        <label>Reinforced Wide Autodoor</label>
+        <description>Unlocks construction of a wide reinforced autodoor.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <hiddenPrerequisites>
+            <li>Autodoors</li>
+            <li>Machining</li>
+        </hiddenPrerequisites>
+        <prerequisites>
+            <li>Reinforced_Autodoors</li>
+        </prerequisites>
+        <requiredResearchFacilities>
+            <li>ToolCabinet</li>
+        </requiredResearchFacilities>
+        <researchViewX>1.0</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+</Defs>

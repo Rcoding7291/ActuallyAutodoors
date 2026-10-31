@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ResearchProject>
+    <ResearchProjectDef>
         <tab>Advanced_Autodoors_Research</tab>
         <defName>Reinforced_Autodoors</defName>
         <label>Reinforced Autodoors</label>
-        <description></description>
-        <basecost>800</basecost>
+        <description>Research to unlock reinforced autodoors for enhanced security and speed. Slower than regular autodoors but much stronger.</description>
+        <baseCost>800</baseCost>
         <techLevel>Industrial</techLevel>
         <hiddenPrerequisites>
             <li>Autodoors</li>
@@ -19,5 +19,5 @@
         </requiredResearchFacilities>
         <researchViewX>1.0</researchViewX>
         <researchViewY>0.7</researchViewY>
-    </ResearchProject>
+    </ResearchProjectDef>
 </Defs>

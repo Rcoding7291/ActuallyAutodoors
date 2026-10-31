@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Def>
+<Defs>
     <ResearchProjectDef>
         <tab>Advanced_Autodoors_Research</tab>
         <defName>Advanced_Reinforced_Autodoors</defName>
         <label>Advanced Reinforced Autodoors</label>
         <description>An advanced version of the reinforced autodoor, offering superior durability and speed at a higher resource cost.</description>
-        <basecost>3000</basecost>
+        <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
-            <prerequisites>
-            <li>ReinforcedAutodoors</li>
+        <prerequisites>
+            <li>Reinforced_Autodoors</li>
             <li>Advanced_Autodoors</li>
         </prerequisites>
         <requiredResearchFacilities>
@@ -18,4 +18,4 @@
         <researchViewX>2.0</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
-</Def>
+</Defs>

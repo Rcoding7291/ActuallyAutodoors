@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ActuallyAutodoorsWideDoorBase">
+        <defName>WideDoor</defName>
+        <label>Wide Door</label>
+        <description>A wide door that is slower to open than a regular reinforced door but more durable and wider.</description>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <WorkToBuild>1000</WorkToBuild>
+            <DoorOpenSpeed>0.85</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Wide Door Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Wide Door</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costStuffCount>50</costStuffCount>
+        <comps>
+            <li Class="CompProperties_Styleable"/>
+        </comps>
+        <researchPrerequisites>
+            <li>WideDoor</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <building>
+            <isStuffableAirtight>false</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

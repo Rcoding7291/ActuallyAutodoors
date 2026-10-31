@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <tab>Advanced_Autodoors_Research</tab>
+        <defName>Reinforced_Wide_Door</defName>
+        <label>Reinforced Wide Door</label>
+        <description>Unlocks construction of a wide reinforced door.</description>
+        <baseCost>300</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>Reinforced_Doors</li>
+        </prerequisites>
+        <researchViewX>0.0</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+</Defs>

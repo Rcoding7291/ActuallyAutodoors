@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ActuallyAutodoorsWideDoorBase">
+        <defName>Reinforced_Wide_Autodoor</defName>
+        <label>Reinforced Wide Autodoor</label>
+        <description>A wide reinforced autodoor that opens when powered and is more durable.</description>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>2200</WorkToBuild>
+            <Beauty>30</Beauty>
+            <DoorOpenSpeed>1.1</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Reinforced Wide Autodoor Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costList>
+            <Steel></Steel>
+        </costList>
+        <stuffCostcount></stuffCostcount>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>125</basePowerConsumption>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>Reinforced_Wide_Autodoor</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <building>
+            <isStuffableAirtight>true</isStuffableAirtight>
+        </building>
+        <!-- Add the variant's costList and costStuffCount after review. -->
+    </ThingDef>
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/comps</xpath>
+                <value>
+                    <li Class="CompProperties_AffectedByFacilities">
+                        <linkableFacilities>
+                            <li>ToolCabinet</li>
+                        </linkableFacilities>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/placeWorkers</xpath>
+                <value>
+                    <li>PlaceWorker_ShowFacilitiesConnections</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+                <value>
+                    <li>ToolCabinet</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

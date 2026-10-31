@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <tab>Advanced_Autodoors_Research</tab>
+        <defName>Advanced_Wide_Autodoor</defName>
+        <label>Wide Autodoor</label>
+        <description>Unlocks construction of a wide advanced autodoor.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>Advanced_Autodoors</li>
+            <li>ComplexFurniture</li>
+        </prerequisites>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2.0</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+</Defs>

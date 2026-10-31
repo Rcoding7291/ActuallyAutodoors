@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef Name="Advanced_Autodoors" ParentName="DoorBase">
+    <ThingDef ParentName="DoorBase">
         <defName>Advanced_Autodoors</defName>
         <label>Advanced Autodoor</label>
         <description>An automatic door that opens when someone approaches. It is faster than a normal autodoor but it requires power to operate. If the power is cut off, it will function as a normal door.</description>
@@ -8,7 +8,7 @@
             <MaxHitPoints>350</MaxHitPoints>
             <Flammability>0.0</Flammability>
             <WorkToBuild>2500</WorkToBuild>
-            <DoorOpenSpeed>1.50</DoorOpenSpeed>
+            <DoorOpenSpeed>1.5</DoorOpenSpeed>
         </statBases>
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Advanced Autodoor Mover</texPath>
@@ -23,7 +23,8 @@
         <selectable>true</selectable>
         <costList>
             <Steel>50</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <costStuffCount>25</costStuffCount>
         <researchPrerequisites>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ActuallyAutodoorsWideDoorBase">
+        <defName>Advanced_Wide_Autodoor</defName>
+        <label>Advanced Wide Autodoor</label>
+        <description>An advanced wide autodoor that opens quickly when powered.</description>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Flammability>0.0</Flammability>
+            <WorkToBuild>2700</WorkToBuild>
+            <DoorOpenSpeed>1.5</DoorOpenSpeed>
+        </statBases>
+        <graphicData>
+            <texPath>Textures_Actually_Autodoors/Advanced Wide Autodoor Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Wide Autodoor</uiIconPath>
+        <category>Building</category>
+        <selectable>true</selectable>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <costStuffCount>50</costStuffCount>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Styleable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>50</basePowerConsumption>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>Wide_Autodoor</li>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+        <building>
+            <isStuffableAirtight>true</isStuffableAirtight>
+        </building>
+    </ThingDef>
+</Defs>

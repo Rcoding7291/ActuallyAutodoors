@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef Name="Reinforced_Doors" ParentName="BaseDoor">
+    <ThingDef ParentName="DoorBase">
         <defName>Reinforced_Doors</defName>
         <label>Reinforced Door</label>
         <description>Works just like a regular door but it is slower and more durable.</description>
-        <
         <statBases>
             <MaxHitPoints>225</MaxHitPoints>
             <Flammability>0.5</Flammability>
             <WorkToBuild>1200</WorkToBuild>
-            <DoorOpenSpeed>0.60</DoorOpenSpeed>
+            <DoorOpenSpeed>0.90</DoorOpenSpeed>
         </statBases>
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Reinforced Door Mover</texPath>
