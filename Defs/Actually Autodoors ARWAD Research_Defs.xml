@@ -19,6 +19,6 @@
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
         <researchViewX>3.0</researchViewX>
-        <researchViewY>2.1</researchViewY>
+        <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 </Defs>
