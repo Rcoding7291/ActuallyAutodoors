@@ -9,7 +9,7 @@ namespace ActuallyAutodoors
         private static readonly Dictionary<string, float> MinimumSpeeds =
             new Dictionary<string, float>
             {
-                { "Reinforced_Wide_Door", 1.25f }, // BRWD; included
+                { "Reinforced_Wide_Door", 0.8f },
                 { "Reinforced_Wide_Autodoor", 1.1f },
                 { "Reinforced_Doors", 0.9f },
                 { "Reinforced_Autodoors", 1.1f },

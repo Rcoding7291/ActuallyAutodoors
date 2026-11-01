@@ -8,7 +8,7 @@
             <MaxHitPoints>200</MaxHitPoints>
             <Flammability>0.5</Flammability>
             <WorkToBuild>1000</WorkToBuild>
-            <DoorOpenSpeed>0.85</DoorOpenSpeed>
+            <DoorOpenSpeed>0.95</DoorOpenSpeed>
         </statBases>
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Wide Door Mover</texPath>
