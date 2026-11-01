@@ -8,19 +8,19 @@
         <building>
             <blueprintClass>Blueprint_Build</blueprintClass>
             <blueprintGraphicData>
-                <texPath>Textures_Actually_Autodoors/WideDoor2x1_MenuIcon</texPath>
+                <texPath>Textures_Actually_Autodoors/WideDoor_MenuIcon</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>
                 <shaderType>EdgeDetect</shaderType>
                 <drawSize>(2, 1)</drawSize>
             </blueprintGraphicData>
             <isSupportDoor>true</isSupportDoor>
             <doorTopGraphic>
-                <texPath>Textures_Actually_Autodoors/WideDoor2x1_Top</texPath>
+                <texPath>Textures_Actually_Autodoors/WideDoor_Top</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>
                 <drawSize>(3.1, 1)</drawSize>
             </doorTopGraphic>
             <doorSupportGraphic>
-                <texPath>Textures_Actually_Autodoors/WideDoor2x1_Support</texPath>
+                <texPath>Textures_Actually_Autodoors/WideDoor_Support</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>
                 <drawSize>(3.1, 1)</drawSize>
             </doorSupportGraphic>
