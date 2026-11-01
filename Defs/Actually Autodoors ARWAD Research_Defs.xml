@@ -7,16 +7,18 @@
         <description>Unlocks construction of a wide advanced reinforced autodoor.</description>
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
+        <hiddenPrerequisites>
+            <li>ComplexFurniture</li>
+        </hiddenPrerequisites>
         <prerequisites>
             <li>Reinforced_Autodoors</li>
             <li>Advanced_Autodoors</li>
-            <li>ComplexFurniture</li>
         </prerequisites>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
-        <researchViewX>2.0</researchViewX>
-        <researchViewY>1.4</researchViewY>
+        <researchViewX>3.0</researchViewX>
+        <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 </Defs>

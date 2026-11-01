@@ -7,6 +7,9 @@
         <description>An advanced version of the reinforced autodoor, offering superior durability and speed at a higher resource cost.</description>
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
+        <hiddenPrerequisites>
+            <li>ComplexFurniture</li>
+        </hiddenPrerequisites>
         <prerequisites>
             <li>Reinforced_Autodoors</li>
             <li>Advanced_Autodoors</li>
@@ -15,7 +18,7 @@
             <li>MultiAnalyzer</li>
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
-        <researchViewX>2.0</researchViewX>
+        <researchViewX>3.0</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 </Defs>

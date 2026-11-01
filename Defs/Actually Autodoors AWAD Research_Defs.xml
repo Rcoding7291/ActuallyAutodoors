@@ -7,6 +7,9 @@
         <description>Unlocks construction of a wide advanced autodoor.</description>
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
+        <hiddenPrerequisites>
+            <li>ComplexFurniture</li>
+        </hiddenPrerequisites>
         <prerequisites>
             <li>Advanced_Autodoors</li>
             <li>ComplexFurniture</li>

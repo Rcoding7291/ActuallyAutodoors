@@ -7,6 +7,9 @@
         <description>Unlocks construction of a wide reinforced door.</description>
         <baseCost>300</baseCost>
         <techLevel>Medieval</techLevel>
+        <hiddenPrerequisites>
+            <li>ComplexFurniture</li>
+        </hiddenPrerequisites>
         <prerequisites>
             <li>Reinforced_Doors</li>
         </prerequisites>

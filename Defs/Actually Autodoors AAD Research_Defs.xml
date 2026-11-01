@@ -8,13 +8,16 @@
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
         <hiddenPrerequisites>
-          <li>Autodoors</li>
-          <li>MicroelectronicsBasics</li>
+            <li>ComplexFurniture</li>
+            <li>MicroelectronicsBasics</li>
         </hiddenPrerequisites>
+        <prerequisites>
+          <li>Autodoors</li>
+        </prerequisites>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>2.0</researchViewX>
+        <researchViewX>4.0</researchViewX>
         <researchViewY>0.0</researchViewY>
     </ResearchProjectDef>
 </Defs>

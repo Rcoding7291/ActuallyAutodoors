@@ -36,6 +36,7 @@
         </comps>
         <researchPrerequisites>
             <li>Reinforced_Wide_Autodoor</li>
+            <li>ComplexFurniture</li>
         </researchPrerequisites>
         <stuffCategories>
             <li>Metallic</li>

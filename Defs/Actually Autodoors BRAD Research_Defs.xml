@@ -6,18 +6,19 @@
         <label>Reinforced Autodoors</label>
         <description>Research to unlock reinforced autodoors for enhanced security and speed. Slower than regular autodoors but much stronger.</description>
         <baseCost>800</baseCost>
-        <techLevel>Industrial</techLevel>
+        <techLevel>Industrial</techLevel>    
         <hiddenPrerequisites>
-            <li>Autodoors</li>
+            <li>ComplexFurniture</li>
             <li>Machining</li>
         </hiddenPrerequisites>
         <prerequisites>
+            <li>Autodoors</li>
             <li>Reinforced_Doors</li>
         </prerequisites>
         <requiredResearchFacilities>
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
-        <researchViewX>1.0</researchViewX>
+        <researchViewX>2.0</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 </Defs>

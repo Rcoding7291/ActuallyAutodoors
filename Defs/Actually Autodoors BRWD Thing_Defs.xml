@@ -30,6 +30,7 @@
         </comps>
         <researchPrerequisites>
             <li>Wide_Door</li>
+            <li>ComplexFurniture</li>
         </researchPrerequisites>
         <stuffCategories>
             <li>Metallic</li>

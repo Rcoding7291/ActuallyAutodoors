@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ThingDef[defName="Door"]/building/isStuffableAirtight</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Door"]/building/isStuffableAirtight</xpath>
+                    <value>
+                        <isStuffableAirtight>false</isStuffableAirtight>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Door"]/building</xpath>
+                    <value>
+                        <isStuffableAirtight>false</isStuffableAirtight>
+                    </value>
+                </nomatch>
+            </li>
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ThingDef[defName="OrnateDoor"]/building/isStuffableAirtight</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="OrnateDoor"]/building/isStuffableAirtight</xpath>
+                    <value>
+                        <isStuffableAirtight>false</isStuffableAirtight>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="OrnateDoor"]/building</xpath>
+                    <value>
+                        <isStuffableAirtight>false</isStuffableAirtight>
+                    </value>
+                </nomatch>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

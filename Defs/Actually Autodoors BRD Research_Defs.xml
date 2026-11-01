@@ -8,6 +8,7 @@
         <baseCost>300</baseCost>
         <techLevel>Medieval</techLevel>
         <hiddenPrerequisites>
+            <li>ComplexFurniture</li>
             <li>Smithing</li>
         </hiddenPrerequisites>
         <researchViewX>0.0</researchViewX>

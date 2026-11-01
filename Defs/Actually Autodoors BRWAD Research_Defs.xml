@@ -8,7 +8,7 @@
         <baseCost>800</baseCost>
         <techLevel>Industrial</techLevel>
         <hiddenPrerequisites>
-            <li>Autodoors</li>
+            <li>ComplexFurniture</li>
             <li>Machining</li>
         </hiddenPrerequisites>
         <prerequisites>
@@ -17,7 +17,7 @@
         <requiredResearchFacilities>
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
-        <researchViewX>1.0</researchViewX>
+        <researchViewX>2.0</researchViewX>
         <researchViewY>1.4</researchViewY>
     </ResearchProjectDef>
 </Defs>

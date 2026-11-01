@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/tab</xpath>
+                <value>
+                    <tab>Advanced_Autodoors_Research</tab>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>1.0</researchViewX>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>0.0</researchViewY>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
