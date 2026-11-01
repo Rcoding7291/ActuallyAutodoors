@@ -2,23 +2,42 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <li Class="PatchOperationReplace">
+            <li Class="PatchOperationConditional">
                 <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/tab</xpath>
-                <value>
-                    <tab>Advanced_Autodoors_Research</tab>
-                </value>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/tab</xpath>
+                    <value>
+                        <tab>Advanced_Autodoors_Research</tab>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]</xpath>
+                    <value>
+                        <tab>Advanced_Autodoors_Research</tab>
+                    </value>
+                </nomatch>
             </li>
-            <li Class="PatchOperationReplace">
+            <li Class="PatchOperationConditional">
                 <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewX</xpath>
-                <value>
-                    <researchViewX>1.0</researchViewX>
-                </value>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewX</xpath>
+                    <value><researchViewX>1.0</researchViewX></value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]</xpath>
+                    <value><researchViewX>1.0</researchViewX></value>
+                </nomatch>
             </li>
-            <li Class="PatchOperationReplace">
+            <li Class="PatchOperationConditional">
                 <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewY</xpath>
-                <value>
-                    <researchViewY>0.0</researchViewY>
-                </value>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/researchViewY</xpath>
+                    <value><researchViewY>0.0</researchViewY></value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]</xpath>
+                    <value><researchViewY>0.0</researchViewY></value>
+                </nomatch>
             </li>
         </operations>
     </Operation>

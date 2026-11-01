@@ -11,14 +11,14 @@
             <DoorOpenSpeed>1.5</DoorOpenSpeed>
         </statBases>
         <graphicData>
-            <texPath>Textures_Actually_Autodoors/Advanced Reinforced Door Mover</texPath>
+            <texPath>Textures_Actually_Autodoors/Advanced Reinforced Autodoor Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawRotated>false</drawRotated>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Advanced Reinforced Door</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Advanced Reinforced Autodoor</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>

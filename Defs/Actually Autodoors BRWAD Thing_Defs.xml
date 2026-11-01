@@ -23,9 +23,10 @@
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
-            <Steel></Steel>
+            <Steel>40</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
-        <stuffCostcount></stuffCostcount>
+        <costStuffCount>60</costStuffCount>
         <comps>
             <li Class="CompProperties_Breakdownable"/>
             <li Class="CompProperties_Styleable"/>
@@ -47,6 +48,5 @@
         <building>
             <isStuffableAirtight>true</isStuffableAirtight>
         </building>
-        <!-- Add the variant's costList and costStuffCount after review. -->
     </ThingDef>
 </Defs>

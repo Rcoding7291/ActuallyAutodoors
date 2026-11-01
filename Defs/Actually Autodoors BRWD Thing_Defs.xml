@@ -11,14 +11,14 @@
             <DoorOpenSpeed>0.85</DoorOpenSpeed>
         </statBases>
         <graphicData>
-            <texPath>Textures_Actually_Autodoors/Wide Door Mover</texPath>
+            <texPath>Textures_Actually_Autodoors/Reinforced Wide Door Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Wide Door</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Door</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
@@ -29,7 +29,7 @@
             <li Class="CompProperties_Styleable"/>
         </comps>
         <researchPrerequisites>
-            <li>Wide_Door</li>
+            <li>Smithing</li>
             <li>ComplexFurniture</li>
         </researchPrerequisites>
         <stuffCategories>
