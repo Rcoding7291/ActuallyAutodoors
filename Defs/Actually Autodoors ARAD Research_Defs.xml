@@ -18,7 +18,7 @@
             <li>MultiAnalyzer</li>
             <li>ToolCabinet</li>
         </requiredResearchFacilities>
-        <researchViewX>3.0</researchViewX>
+        <researchViewX>5</researchViewX>
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 </Defs>

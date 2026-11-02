@@ -6,10 +6,10 @@
         <rotatable>true</rotatable>
         <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
         <building>
-            <blueprintClass>Blueprint_Build</blueprintClass>
+            <blueprintClass>Blueprint_Door</blueprintClass>
             <blueprintGraphicData>
                 <texPath>Textures_Actually_Autodoors/WideDoor_MenuIcon</texPath>
-                <graphicClass>Graphic_Multi</graphicClass>
+                <graphicClass>Graphic_Single</graphicClass>
                 <shaderType>EdgeDetect</shaderType>
                 <drawSize>(2, 1)</drawSize>
             </blueprintGraphicData>

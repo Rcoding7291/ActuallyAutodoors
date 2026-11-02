@@ -13,12 +13,11 @@
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Wide Door Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Wide Door</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Wide Door Mover</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costStuffCount>50</costStuffCount>
@@ -31,6 +30,9 @@
             <li>Stony</li>
         </stuffCategories>
         <building>
+            <blueprintGraphicData>
+                <texPath>Textures_Actually_Autodoors/Wide Door</texPath>
+            </blueprintGraphicData>
             <isStuffableAirtight>false</isStuffableAirtight>
         </building>
     </ThingDef>

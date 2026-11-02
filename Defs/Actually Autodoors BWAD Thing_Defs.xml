@@ -13,12 +13,11 @@
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Wide Autodoor Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Wide Autodoor</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Wide Autodoor Mover</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
@@ -45,6 +44,9 @@
         </stuffCategories>
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
         <building>
+            <blueprintGraphicData>
+                <texPath>Textures_Actually_Autodoors/Wide Autodoor</texPath>
+            </blueprintGraphicData>
             <isStuffableAirtight>true</isStuffableAirtight>
         </building>
     </ThingDef>

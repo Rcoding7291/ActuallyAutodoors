@@ -13,12 +13,11 @@
         <graphicData>
             <texPath>Textures_Actually_Autodoors/Reinforced Wide Door Mover</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Door</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Door Mover</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
@@ -39,6 +38,9 @@
         </stuffCategories>
         <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
         <building>
+            <blueprintGraphicData>
+                <texPath>Textures_Actually_Autodoors/Reinforced Wide Door</texPath>
+            </blueprintGraphicData>
             <isStuffableAirtight>false</isStuffableAirtight>
         </building>
     </ThingDef>
