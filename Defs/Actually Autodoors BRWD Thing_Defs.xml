@@ -17,7 +17,7 @@
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
-        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Door Mover</uiIconPath>
+        <uiIconPath>Textures_Actually_Autodoors/Reinforced Wide Door Icon</uiIconPath>
         <category>Building</category>
         <selectable>true</selectable>
         <costList>
